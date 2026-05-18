@@ -1,0 +1,15 @@
+{
+	"name": "TalibCarADF",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "34a3e96e-f2fb-421a-905a-e1e65485118b",
+		"tenantId": "212f15fa-c976-42e9-858f-66c495dd1cc5"
+	}
+}
