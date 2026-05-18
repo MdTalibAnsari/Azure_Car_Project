@@ -5,6 +5,11 @@
 			"referenceName": "AzureSqlDatabase_LS",
 			"type": "LinkedServiceReference"
 		},
+		"parameters": {
+			"table_name": {
+				"type": "string"
+			}
+		},
 		"annotations": [],
 		"type": "AzureSqlTable",
 		"schema": [
@@ -55,7 +60,7 @@
 		],
 		"typeProperties": {
 			"schema": "dbo",
-			"table": "source_car_data"
+			"table": "water_table"
 		}
 	}
 }
