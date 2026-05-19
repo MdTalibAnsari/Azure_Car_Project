@@ -153,6 +153,18 @@
 									"type": "String",
 									"physicalType": "varchar"
 								}
+							},
+							{
+								"source": {
+									"name": "Year",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Year",
+									"type": "Int32",
+									"physicalType": "int"
+								}
 							}
 						],
 						"typeConversion": true,
@@ -173,7 +185,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "AzureSqlTable_DS",
+						"referenceName": "Azure_SQL_DS",
 						"type": "DatasetReference"
 					}
 				]

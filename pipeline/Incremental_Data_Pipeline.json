@@ -58,11 +58,8 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "AzureSqlTable_DS",
-						"type": "DatasetReference",
-						"parameters": {
-							"table_name": "source_car_data"
-						}
+						"referenceName": "Azure_SQL_DS",
+						"type": "DatasetReference"
 					}
 				],
 				"outputs": [
@@ -92,11 +89,8 @@
 						"partitionOption": "None"
 					},
 					"dataset": {
-						"referenceName": "AzureSqlTable_DS",
-						"type": "DatasetReference",
-						"parameters": {
-							"table_name": "water_table"
-						}
+						"referenceName": "Azure_SQL_DS",
+						"type": "DatasetReference"
 					},
 					"firstRowOnly": false
 				}
@@ -121,11 +115,8 @@
 						"partitionOption": "None"
 					},
 					"dataset": {
-						"referenceName": "AzureSqlTable_DS",
-						"type": "DatasetReference",
-						"parameters": {
-							"table_name": "source_car_data"
-						}
+						"referenceName": "Azure_SQL_DS",
+						"type": "DatasetReference"
 					},
 					"firstRowOnly": false
 				}
